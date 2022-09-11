@@ -32,4 +32,10 @@ public class SuperGreeter {
         int year = 2022 - age;
         return year;
     }
+
+    public int askAboutPets(){
+        System.out.print("Hvor mange dyr har du? ");
+        int petAmount = scanner.nextInt();
+        return petAmount;
+    }
 }
