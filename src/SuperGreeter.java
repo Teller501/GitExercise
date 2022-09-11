@@ -17,7 +17,7 @@ public class SuperGreeter {
         System.out.print("Hvor gammel er du? ");
         age = scanner.nextInt();
         System.out.println("Du er " + age + " år gammel");
-        System.out.println("Du er født i " + calculateYear());
+        System.out.println("Du er født i " + calculateYear() + " eller i " + (calculateYear() - 1));
     }
 
     public void Greet(){
