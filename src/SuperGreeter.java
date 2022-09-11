@@ -38,4 +38,13 @@ public class SuperGreeter {
         int petAmount = scanner.nextInt();
         return petAmount;
     }
+
+    public Pet createPet(){
+        System.out.print("Hvilket kæledyr har du? ");
+        String type = scanner.next();
+        System.out.print("Hvad hedder dit kæledyr? ");
+        String name = scanner.next();
+
+        return new Pet(type, name);
+    }
 }
